@@ -16,6 +16,11 @@
 		50265E071760FCD6003115E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50265E061760FCD6003115E6 /* Default.png */; };
 		50265E091760FCD6003115E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50265E081760FCD6003115E6 /* Default@2x.png */; };
 		50265E0B1760FCD6003115E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50265E0A1760FCD6003115E6 /* Default-568h@2x.png */; };
+		50265E121760FD0F003115E6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50265E111760FD0F003115E6 /* Storyboard.storyboard */; };
+		50265E151760FDFB003115E6 /* APRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50265E141760FDFB003115E6 /* APRTableViewController.m */; };
+		50265E181760FE31003115E6 /* APRContacto.m in Sources */ = {isa = PBXBuildFile; fileRef = 50265E171760FE31003115E6 /* APRContacto.m */; };
+		50265E1B1761030B003115E6 /* APRDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50265E1A1761030B003115E6 /* APRDetalleViewController.m */; };
+		50265E1E1761069F003115E6 /* APRAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50265E1D1761069F003115E6 /* APRAddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,15 @@
 		50265E061760FCD6003115E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		50265E081760FCD6003115E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		50265E0A1760FCD6003115E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50265E111760FD0F003115E6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		50265E131760FDFB003115E6 /* APRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRTableViewController.h; sourceTree = "<group>"; };
+		50265E141760FDFB003115E6 /* APRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRTableViewController.m; sourceTree = "<group>"; };
+		50265E161760FE31003115E6 /* APRContacto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRContacto.h; sourceTree = "<group>"; };
+		50265E171760FE31003115E6 /* APRContacto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRContacto.m; sourceTree = "<group>"; };
+		50265E191761030B003115E6 /* APRDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRDetalleViewController.h; sourceTree = "<group>"; };
+		50265E1A1761030B003115E6 /* APRDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRDetalleViewController.m; sourceTree = "<group>"; };
+		50265E1C1761069F003115E6 /* APRAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRAddViewController.h; sourceTree = "<group>"; };
+		50265E1D1761069F003115E6 /* APRAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRAddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,15 @@
 				50265E031760FCD6003115E6 /* APRAppDelegate.h */,
 				50265E041760FCD6003115E6 /* APRAppDelegate.m */,
 				50265DFB1760FCD6003115E6 /* Supporting Files */,
+				50265E111760FD0F003115E6 /* Storyboard.storyboard */,
+				50265E131760FDFB003115E6 /* APRTableViewController.h */,
+				50265E141760FDFB003115E6 /* APRTableViewController.m */,
+				50265E161760FE31003115E6 /* APRContacto.h */,
+				50265E171760FE31003115E6 /* APRContacto.m */,
+				50265E191761030B003115E6 /* APRDetalleViewController.h */,
+				50265E1A1761030B003115E6 /* APRDetalleViewController.m */,
+				50265E1C1761069F003115E6 /* APRAddViewController.h */,
+				50265E1D1761069F003115E6 /* APRAddViewController.m */,
 			);
 			path = TablaMVC;
 			sourceTree = "<group>";
@@ -155,6 +178,7 @@
 				50265E071760FCD6003115E6 /* Default.png in Resources */,
 				50265E091760FCD6003115E6 /* Default@2x.png in Resources */,
 				50265E0B1760FCD6003115E6 /* Default-568h@2x.png in Resources */,
+				50265E121760FD0F003115E6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +191,10 @@
 			files = (
 				50265E011760FCD6003115E6 /* main.m in Sources */,
 				50265E051760FCD6003115E6 /* APRAppDelegate.m in Sources */,
+				50265E151760FDFB003115E6 /* APRTableViewController.m in Sources */,
+				50265E181760FE31003115E6 /* APRContacto.m in Sources */,
+				50265E1B1761030B003115E6 /* APRDetalleViewController.m in Sources */,
+				50265E1E1761069F003115E6 /* APRAddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
