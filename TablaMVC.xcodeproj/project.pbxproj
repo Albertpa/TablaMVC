@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50265DF51760FCD6003115E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50265DF41760FCD6003115E6 /* UIKit.framework */; };
+		50265DF71760FCD6003115E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50265DF61760FCD6003115E6 /* Foundation.framework */; };
+		50265DF91760FCD6003115E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50265DF81760FCD6003115E6 /* CoreGraphics.framework */; };
+		50265DFF1760FCD6003115E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50265DFD1760FCD6003115E6 /* InfoPlist.strings */; };
+		50265E011760FCD6003115E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50265E001760FCD6003115E6 /* main.m */; };
+		50265E051760FCD6003115E6 /* APRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50265E041760FCD6003115E6 /* APRAppDelegate.m */; };
+		50265E071760FCD6003115E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50265E061760FCD6003115E6 /* Default.png */; };
+		50265E091760FCD6003115E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50265E081760FCD6003115E6 /* Default@2x.png */; };
+		50265E0B1760FCD6003115E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50265E0A1760FCD6003115E6 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50265DF11760FCD6003115E6 /* TablaMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TablaMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50265DF41760FCD6003115E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50265DF61760FCD6003115E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50265DF81760FCD6003115E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50265DFC1760FCD6003115E6 /* TablaMVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TablaMVC-Info.plist"; sourceTree = "<group>"; };
+		50265DFE1760FCD6003115E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50265E001760FCD6003115E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50265E021760FCD6003115E6 /* TablaMVC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TablaMVC-Prefix.pch"; sourceTree = "<group>"; };
+		50265E031760FCD6003115E6 /* APRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APRAppDelegate.h; sourceTree = "<group>"; };
+		50265E041760FCD6003115E6 /* APRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APRAppDelegate.m; sourceTree = "<group>"; };
+		50265E061760FCD6003115E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		50265E081760FCD6003115E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		50265E0A1760FCD6003115E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50265DEE1760FCD6003115E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50265DF51760FCD6003115E6 /* UIKit.framework in Frameworks */,
+				50265DF71760FCD6003115E6 /* Foundation.framework in Frameworks */,
+				50265DF91760FCD6003115E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50265DE81760FCD6003115E6 = {
+			isa = PBXGroup;
+			children = (
+				50265DFA1760FCD6003115E6 /* TablaMVC */,
+				50265DF31760FCD6003115E6 /* Frameworks */,
+				50265DF21760FCD6003115E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50265DF21760FCD6003115E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50265DF11760FCD6003115E6 /* TablaMVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50265DF31760FCD6003115E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50265DF41760FCD6003115E6 /* UIKit.framework */,
+				50265DF61760FCD6003115E6 /* Foundation.framework */,
+				50265DF81760FCD6003115E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50265DFA1760FCD6003115E6 /* TablaMVC */ = {
+			isa = PBXGroup;
+			children = (
+				50265E031760FCD6003115E6 /* APRAppDelegate.h */,
+				50265E041760FCD6003115E6 /* APRAppDelegate.m */,
+				50265DFB1760FCD6003115E6 /* Supporting Files */,
+			);
+			path = TablaMVC;
+			sourceTree = "<group>";
+		};
+		50265DFB1760FCD6003115E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50265DFC1760FCD6003115E6 /* TablaMVC-Info.plist */,
+				50265DFD1760FCD6003115E6 /* InfoPlist.strings */,
+				50265E001760FCD6003115E6 /* main.m */,
+				50265E021760FCD6003115E6 /* TablaMVC-Prefix.pch */,
+				50265E061760FCD6003115E6 /* Default.png */,
+				50265E081760FCD6003115E6 /* Default@2x.png */,
+				50265E0A1760FCD6003115E6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50265DF01760FCD6003115E6 /* TablaMVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50265E0E1760FCD6003115E6 /* Build configuration list for PBXNativeTarget "TablaMVC" */;
+			buildPhases = (
+				50265DED1760FCD6003115E6 /* Sources */,
+				50265DEE1760FCD6003115E6 /* Frameworks */,
+				50265DEF1760FCD6003115E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TablaMVC;
+			productName = TablaMVC;
+			productReference = 50265DF11760FCD6003115E6 /* TablaMVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50265DE91760FCD6003115E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Albert Pages";
+			};
+			buildConfigurationList = 50265DEC1760FCD6003115E6 /* Build configuration list for PBXProject "TablaMVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50265DE81760FCD6003115E6;
+			productRefGroup = 50265DF21760FCD6003115E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50265DF01760FCD6003115E6 /* TablaMVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50265DEF1760FCD6003115E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50265DFF1760FCD6003115E6 /* InfoPlist.strings in Resources */,
+				50265E071760FCD6003115E6 /* Default.png in Resources */,
+				50265E091760FCD6003115E6 /* Default@2x.png in Resources */,
+				50265E0B1760FCD6003115E6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50265DED1760FCD6003115E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50265E011760FCD6003115E6 /* main.m in Sources */,
+				50265E051760FCD6003115E6 /* APRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50265DFD1760FCD6003115E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50265DFE1760FCD6003115E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50265E0C1760FCD6003115E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50265E0D1760FCD6003115E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50265E0F1760FCD6003115E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TablaMVC/TablaMVC-Prefix.pch";
+				INFOPLIST_FILE = "TablaMVC/TablaMVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50265E101760FCD6003115E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TablaMVC/TablaMVC-Prefix.pch";
+				INFOPLIST_FILE = "TablaMVC/TablaMVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50265DEC1760FCD6003115E6 /* Build configuration list for PBXProject "TablaMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50265E0C1760FCD6003115E6 /* Debug */,
+				50265E0D1760FCD6003115E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50265E0E1760FCD6003115E6 /* Build configuration list for PBXNativeTarget "TablaMVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50265E0F1760FCD6003115E6 /* Debug */,
+				50265E101760FCD6003115E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50265DE91760FCD6003115E6 /* Project object */;
+}
